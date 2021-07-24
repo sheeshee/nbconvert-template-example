@@ -1,0 +1,14 @@
+{%- extends 'reveal/index.html.j2' -%}
+
+{% block notebook_css %}
+{{ super() }}
+{{ resources.include_css("avocado.css") }}
+{% endblock %}
+
+{% block body_header %}
+{{ super() }}
+{% set nb_title = nb.metadata.get('title', '') or resources['metadata']['name'] %}
+<section class=".first-slide" data-background-image="data:image/jpg;base64,{{ resources['avocado-img'] }}">
+<h1>{{ nb_title }}</h1>
+</section>
+{% endblock %}

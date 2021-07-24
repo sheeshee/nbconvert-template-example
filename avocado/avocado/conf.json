@@ -1,0 +1,15 @@
+{
+    "base_template": "reveal",
+    "mimetypes": {
+        "text/html": true
+    },
+    "preprocessors": {
+        "100-remove-tags" : {
+            "type": "nbconvert.preprocessors.TagRemovePreprocessor",
+            "enabled": true,
+            "remove_cell_tags": ["remove_cell"],
+            "remove_all_outputs_tags": ["remove_output"],
+            "remove_input_tags": ["remove_input"]
+        }
+    }
+}
