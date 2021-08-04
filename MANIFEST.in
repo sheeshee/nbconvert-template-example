@@ -1,1 +1,1 @@
-recursive-include avocado/avocado/ *
+graft avocado
