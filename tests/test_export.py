@@ -12,7 +12,7 @@ the raised error is the one we expect. This can at least catch unclosed tags.
 """
 from pathlib import Path
 from html5lib.html5parser import HTMLParser, ParseError
-from avocado import AvocadoExporter
+from fruit_styles import AvocadoExporter
 
 
 def get_test_filepath(filename):

@@ -1,3 +1,4 @@
-# distributing
+nbconvert
+html5lib
 build
 twine
